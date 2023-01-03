@@ -165,7 +165,7 @@ class Decoder(nn.Module):
         self.pixelshuffle_block = nn.Sequential(nn.Conv2d(in_channels, in_channels*4, 3, padding=1, bias=False),
                                         nn.PixelShuffle(2))
         self.conv_3x3_last = BasicConv(2*in_channels, in_channels, 3, padding=1, bias=True, norm=norm, act=act)
-        self.rdb = Deformable_Resblock(in_channels, in_channels//4, kernel_size=3, padding=1, bias=True, norm=norm, act=act)
+        self.rdb = Deformable_Resblock(in_channels, in_channels//4, kernel_size=3, padding=1, bias=True, act=act)
         
     def forward(self, x_s, x_l):
         '''x_s : small input, x_l: large input'''
