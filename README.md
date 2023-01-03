@@ -2,9 +2,10 @@
 
 official pytorch implement of WRA-Net
 
-paper[link]
-
-[model img]
+paper[link]  
+   
+![modelfigure](./imgs/modelfigure.png)
+![example](./imgs/example.png)
 
 ---
 
