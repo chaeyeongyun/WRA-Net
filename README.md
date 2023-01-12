@@ -2,7 +2,7 @@
 official pytorch implement of WRA-Net
 ---
 paper[link]  
-motion blurred data [link (https://drive.google.com/file/d/1IJPtZz41XLzYp0Lazes5jOMLjJ01EG3B/view?usp=sharing)]  
+motion blurred data [link(https://drive.google.com/file/d/1IJPtZz41XLzYp0Lazes5jOMLjJ01EG3B/view?usp=sharing)]  
 ---
 
 ## training
