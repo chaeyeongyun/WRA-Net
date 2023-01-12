@@ -3,10 +3,6 @@
 official pytorch implement of WRA-Net
 
 paper[link]  
-   
-![modelfigure](./imgs/modelfigure.png)
-![example](./imgs/example.png)
-
 ---
 
 ## training
