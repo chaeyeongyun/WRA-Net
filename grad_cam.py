@@ -118,7 +118,7 @@ def main(class_num, img_dir, model, model_weights_path, target_layers:List, devi
             device = torch.device('cuda:'+device)
         else: raise Exception('this device is not available')
     model.load_state_dict(torch.load(model_weights_path)['network'])
-    #### error model이 갑자기 unet객체가 아니게됨 띠용? 어디가 문제인지 확인하기
+    
     model = model.to(device)
     print('model weights are loaded')
     def loop(class_num, imgs):
